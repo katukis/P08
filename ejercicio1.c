@@ -14,7 +14,7 @@ int main()
         printf("Valor 2: ");
         scanf("%d", &b);
     }
-    resto = a % b;
+    c = a % b;
     while (c != 0);
     {
         a = b;
