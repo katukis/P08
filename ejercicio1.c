@@ -6,7 +6,7 @@ int main()
     scanf("%d", &a);
     printf("Valor 2: ");
     scanf("%d", &b);
-    while (a <= 0 || b <= 0 || a < b);
+    while (a <= 0 || b <= 0 || a < b)
     {
         printf("\nLos valores deben ser positivos y el primero mayor.\n");
         printf("Valor 1: ");
@@ -15,7 +15,7 @@ int main()
         scanf("%d", &b);
     }
     c = a % b;
-    while (c != 0);
+    while (c != 0)
     {
         a = b;
         b = c;
